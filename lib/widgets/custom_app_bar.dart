@@ -31,9 +31,9 @@ class _CustomAppBarMobile extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                _AppBarButton(title: 'TV Shows', onTap:()=> print('TV Shows'),),
-                _AppBarButton(title: 'Movies',onTap: () => print('Movies'),),
-                _AppBarButton(title: 'My List',onTap: ()=> print('My List'),)
+                _AppBarButton(title: 'TV Shows Posters', onTap:()=> print('TV Shows Posters'),),
+                _AppBarButton(title: 'Movies Posters',onTap: () => print('Movies Posters'),),
+                _AppBarButton(title: 'Saved List',onTap: ()=> print('Saved List'),)
               ],
             ),
           )
